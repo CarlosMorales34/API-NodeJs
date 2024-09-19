@@ -1,0 +1,37 @@
+### Index API
+GET  http://localhost:3000/
+
+### Recuperar las estructuras del cerebro
+GET http://localhost:3000/brain
+
+### Recuperar cierta estructura del cerebro
+GET http://localhost:3000/brain?estructura=lobulo_frontal
+
+### Recuperar cierta area del cerebro
+GET http://localhost:3000/brain/lobulo_temporal/corteza_auditiva_primaria
+
+### POST para crear una nueva estructura del cerebro
+POST http://localhost:3000/brain
+Content-Type: application/json
+
+{
+  "estructuraCerebral": "nombre_corto",
+  "areaCerebral": [
+    {
+      "area": "area ramdom2",
+      "descripcion": "descripcion ramdom2"
+    }
+  ]
+}
+### Patch para actualizar una estructura del cerebro existente
+PATCH http://localhost:3000/brain/nombre_corto
+Content-Type: application/json
+
+{
+  "areaCerebral": [
+    {
+        "area": "area ramdom2",
+        "descripcion": "Ahora puedo modificar y actualizar parcialmente cualquier estructura del cerebro"
+    }
+  ]
+}

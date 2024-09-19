@@ -1,0 +1,159 @@
+{
+  "lobulo_frontal": {
+    "corteza_prefrontal": {
+      "caracteristicas": "Planificación, toma de decisiones, pensamiento complejo.",
+      "conductas_asociadas": "Razonamiento abstracto, control de impulsos.",
+      "neurotransmisores": ["Dopamina", "Glutamato"]
+    },
+    "area_de_broca": {
+      "caracteristicas": "Producción del habla, comprensión del lenguaje.",
+      "conductas_asociadas": "Habilidad para hablar y formar oraciones.",
+      "neurotransmisores": ["GABA", "Glutamato"]
+    },
+    "corteza_motora_primaria": {
+      "caracteristicas": "Control directo de los movimientos voluntarios.",
+      "conductas_asociadas": "Movimientos motores finos y gruesos.",
+      "neurotransmisores": ["Glutamato", "Acetilcolina"]
+    },
+    "corteza_premotora": {
+      "caracteristicas": "Planificación y preparación para el movimiento.",
+      "conductas_asociadas": "Coordinación y secuenciación de movimientos.",
+      "neurotransmisores": ["Glutamato", "Dopamina"]
+    },
+    "corteza_orbitofrontal": {
+      "caracteristicas": "Evaluación de recompensas y toma de decisiones.",
+      "conductas_asociadas": "Regulación emocional, toma de decisiones sociales.",
+      "neurotransmisores": ["Dopamina", "Serotonina"]
+    },
+    "corteza_cingulada_anterior": {
+      "caracteristicas": "Regulación emocional y toma de decisiones.",
+      "conductas_asociadas": "Gestión del dolor, control de errores.",
+      "neurotransmisores": ["Dopamina", "Glutamato"]
+    }
+  },
+  "lobulo_parietal": {
+    "corteza_somatosensorial_primaria": {
+      "caracteristicas": "Procesamiento de la información táctil y proprioceptiva.",
+      "conductas_asociadas": "Sensibilidad al tacto y la posición del cuerpo.",
+      "neurotransmisores": ["Glutamato", "GABA"]
+    },
+    "corteza_somatosensorial_secundaria": {
+      "caracteristicas": "Integración de la información sensorial compleja.",
+      "conductas_asociadas": "Reconocimiento de objetos y texturas.",
+      "neurotransmisores": ["Glutamato", "Serotonina"]
+    },
+    "corteza_parietal_posterior": {
+      "caracteristicas": "Procesamiento de información espacial y visual.",
+      "conductas_asociadas": "Percepción espacial, orientación en el espacio.",
+      "neurotransmisores": ["Dopamina", "Glutamato"]
+    },
+    "corteza_cingulada_posterior": {
+      "caracteristicas": "Procesamiento de la información visoespacial.",
+      "conductas_asociadas": "Reconocimiento de objetos en el entorno.",
+      "neurotransmisores": ["Glutamato", "GABA"]
+    },
+    "giro_angular": {
+      "caracteristicas": "Procesamiento del lenguaje y la percepción numérica.",
+      "conductas_asociadas": "Comprensión del lenguaje escrito, habilidades matemáticas.",
+      "neurotransmisores": ["Glutamato", "Dopamina"]
+    },
+    "giro_supramarginal": {
+      "caracteristicas": "Integración sensorial y percepción del cuerpo.",
+      "conductas_asociadas": "Reconocimiento de objetos, coordinación motora.",
+      "neurotransmisores": ["Glutamato", "Serotonina"]
+    }
+  },
+  "lobulo_temporal": {
+    "corteza_auditiva_primaria": {
+      "caracteristicas": "Procesamiento inicial de la información auditiva.",
+      "conductas_asociadas": "Percepción de sonidos y tonos.",
+      "neurotransmisores": ["Glutamato", "GABA"]
+    },
+    "corteza_auditiva_secundaria": {
+      "caracteristicas": "Interpretación compleja de estímulos auditivos.",
+      "conductas_asociadas": "Reconocimiento de palabras y música.",
+      "neurotransmisores": ["Dopamina", "Glutamato"]
+    },
+    "area_de_wernicke": {
+      "caracteristicas": "Comprensión del lenguaje.",
+      "conductas_asociadas": "Habilidad para entender el habla y el lenguaje escrito.",
+      "neurotransmisores": ["Glutamato", "Serotonina"]
+    },
+    "hipocampo": {
+      "caracteristicas": "Memoria a largo plazo y formación de nuevas memorias.",
+      "conductas_asociadas": "Aprendizaje, memoria episódica.",
+      "neurotransmisores": ["Glutamato", "Acetilcolina"]
+    },
+    "amigdala": {
+      "caracteristicas": "Procesamiento de emociones y respuestas de miedo.",
+      "conductas_asociadas": "Reacciones emocionales, memoria emocional.",
+      "neurotransmisores": ["Dopamina", "Serotonina"]
+    },
+    "giro_parahipocampal": {
+      "caracteristicas": "Memoria espacial y navegación.",
+      "conductas_asociadas": "Orientación espacial, memoria del entorno.",
+      "neurotransmisores": ["Glutamato", "Acetilcolina"]
+    }
+  },
+  "lobulo_occipital": {
+    "corteza_visual_primaria": {
+      "caracteristicas": "Procesamiento inicial de información visual.",
+      "conductas_asociadas": "Reconocimiento de formas, colores y movimiento.",
+      "neurotransmisores": ["Glutamato", "GABA"]
+    },
+    "corteza_visual_secundaria": {
+      "caracteristicas": "Interpretación compleja de estímulos visuales.",
+      "conductas_asociadas": "Reconocimiento de objetos y caras.",
+      "neurotransmisores": ["Dopamina", "Glutamato"]
+    },
+    "giro_cuneiforme": {
+      "caracteristicas": "Procesamiento visual relacionado con el campo visual inferior.",
+      "conductas_asociadas": "Reconocimiento de patrones visuales.",
+      "neurotransmisores": ["Glutamato", "GABA"]
+    },
+    "giro_lingual": {
+      "caracteristicas": "Procesamiento de la información visual relacionada con el campo visual superior.",
+      "conductas_asociadas": "Reconocimiento de letras y palabras.",
+      "neurotransmisores": ["Dopamina", "Serotonina"]
+    },
+    "area_v1": {
+      "caracteristicas": "Primera área visual cortical.",
+      "conductas_asociadas": "Procesamiento básico de la información visual.",
+      "neurotransmisores": ["Glutamato", "GABA"]
+    },
+    "area_v2": {
+      "caracteristicas": "Área visual secundaria que procesa información más compleja.",
+      "conductas_asociadas": "Reconocimiento de características visuales complejas.",
+      "neurotransmisores": ["Glutamato", "Serotonina"]
+    }
+  },
+  "estructuras_subcorticales": {
+    "talamo": {
+      "caracteristicas": "Centro de retransmisión sensorial.",
+      "conductas_asociadas": "Transmisión y modulación de señales sensoriales y motoras.",
+      "neurotransmisores": ["Glutamato", "GABA"]
+    },
+    "hipotalamo": {
+      "caracteristicas": "Regulación homeostática y funciones autónomas.",
+      "conductas_asociadas": "Control del hambre, la sed, la temperatura corporal.",
+      "neurotransmisores": ["Dopamina", "Serotonina"]
+    },
+    "ganglios_basales": {
+      "nucleo_caudado": {
+        "caracteristicas": "Control del movimiento y el aprendizaje.",
+        "conductas_asociadas": "Coordinación motora, procesamiento de hábitos.",
+        "neurotransmisores": ["Dopamina", "Glutamato"]
+      },
+      "putamen": {
+        "caracteristicas": "Control del movimiento y la regulación del ritmo.",
+        "conductas_asociadas": "Regulación de movimientos automáticos y rutinas.",
+        "neurotransmisores": ["Dopamina", "GABA"]
+      },
+      "globo_palido": {
+        "caracteristicas": "Regulación de la actividad motora.",
+        "conductas_asociadas": "Control del tono muscular y movimientos.",
+        "neurotransmisores": ["GABA", "Glutamato"]
+      }
+    }
+  }
+}

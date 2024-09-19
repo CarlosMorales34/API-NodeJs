@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="module">
+        fetch('http://localhost:3000/brain')
+            .then(res => res.json())
+            .then(brainStructures => {
+                console.log(brainStructures); // Ver los datos recibidos
+    
+                const html = Object.entries(brainStructures).map(([lobeName, lobeContent]) => {
+                    // Convertir cada lóbulo en una lista de estructuras
+                    const structures = Object.entries(lobeContent).map(([structureName, structureDetails]) => {
+                        const neurotransmitters = structureDetails.neurotransmisores ? structureDetails.neurotransmisores.join(', ') : 'No disponibles';
+                        
+                        return `
+                            <li>
+                                <strong>${structureName.replace(/_/g, ' ')}:</strong>
+                                <ul>
+                                    <li><strong>Características:</strong> ${structureDetails.caracteristicas || 'No disponibles'}</li>
+                                    <li><strong>Conductas asociadas:</strong> ${structureDetails.conductas_asociadas || 'No disponibles'}</li>
+                                    <li><strong>Neurotransmisores:</strong> ${neurotransmitters}</li>
+                                </ul>
+                            </li>
+                        `;
+                    }).join('');
+    
+                    return `
+                        <div>
+                            <h2>${lobeName.replace(/_/g, ' ')}</h2>
+                            <ul>
+                                ${structures}
+                            </ul>
+                        </div>
+                    `;
+                }).join('');
+    
+                document.querySelector('main').innerHTML = html;
+            })
+            .catch(error => {
+                console.error('Error al obtener las estructuras cerebrales:', error);
+            });
+    </script>
+    
+    
+    
+    
+</head>
+<body>
+    <main></main>
+    
+</body>
+</html>
